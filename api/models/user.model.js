@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
       //the password is not unique because two users can have the same password
     },
   },
-  { timestamp: true }
+  { timestamps: true }
 );
 
 //this is basically the model
